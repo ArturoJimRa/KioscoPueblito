@@ -24,7 +24,7 @@ class SplashActivity : AppCompatActivity() {
         logoDer.startAnimation(anim)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this, OrdenActivity::class.java))
+            startActivity(Intent(this, WebActivity::class.java))
             finish()
         }, 2000)
     }
