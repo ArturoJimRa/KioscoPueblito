@@ -1,7 +1,9 @@
 package com.example.kioscopueblito
 
 import android.content.Intent
-import android.os.*
+import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
@@ -24,7 +26,8 @@ class SplashActivity : AppCompatActivity() {
         logoDer.startAnimation(anim)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            startActivity(Intent(this, WebActivity::class.java))
+            // ✅ NOMBRE CORRECTO DE LA ACTIVIDAD
+            startActivity(Intent(this, KioscoWebActivity::class.java))
             finish()
         }, 2000)
     }
