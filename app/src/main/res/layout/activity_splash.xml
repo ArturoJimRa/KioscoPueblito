@@ -25,7 +25,7 @@
 
         <ImageView
             android:id="@+id/logoDer"
-            android:src="@drawable/logo_mvp"
+            android:src="@drawable/logo_santuario"
             android:layout_width="160dp"
             android:layout_height="160dp"
             android:contentDescription="Logo derecho"/>

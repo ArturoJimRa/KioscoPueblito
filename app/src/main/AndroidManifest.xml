@@ -14,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KioscoPueblito"
-        android:lockTaskMode="if_whitelisted">
+        android:lockTaskMode="if_whitelisted"
+        android:usesCleartextTraffic="true">
 
         <!-- DEVICE ADMIN (REQUERIDO PARA DEVICE OWNER) -->
         <receiver
