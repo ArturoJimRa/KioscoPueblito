@@ -36,7 +36,7 @@ class KioscoWebActivity : AppCompatActivity() {
     private val DEFAULT_URL = "https://miviejopueblito.mx/"
 
     /** PIN secreto para acceder a la configuración administrativa */
-    private val SECRET_PIN = "1234" // 🔐 CAMBIA ESTE PIN
+    private val SECRET_PIN = "280487" // 🔐 Pin Sistemas
 
     /**
      * Método que se ejecuta al crear la actividad.
